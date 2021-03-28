@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+    outline: solid black;
+
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+}
+
+select, input{
+    width: 150px;
+    height: 20px;
+    margin: 5px;
+}
+
+#comment_box {
+    width: 280px;
+    min-height: 100px;
+}
+
+#button{
+    justify-self: right;
+}
+
+.radio{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin: 5px;
+}
